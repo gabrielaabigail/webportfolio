@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&family=Nanum+Myeongjo:wght@400;700;800&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+	--color-negro:#000;
+	--color-texto:#212529;
+}
+body{
+	font-family: 'Quicksand', "Bitter";
+	font-size: 14px;
+	color: var(--color-texto);
+	background-color: #FFFBE9;
+}
+header{
+    background-color: #FFFBE9;
+	font-weight: 400;
+}
+
+.navbar{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color:#FFFBE9;
+	font-weight: 500;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #FFFBE9 !important;
+}
+
+#intro h3{
+	text-align: center;
+	color: #B73E3E;
+	font-size: 50px;
+	padding-top: 2%;
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: 500;
+	font-style: italic;
+}
+
+#about img{
+	border-radius: 50%;
+	background-color: #FFFBE9;
+}
+
+#about{
+	background-size: cover;
+	background-color: #B73E3E;
+	color: #FFFBE9;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+#about h1{
+	text-align: center;
+	font-weight: 700;
+}
+
+#about p{
+	text-align: center;
+	padding-top: 15%;
+	font-size: 20px;
+}
+
+#services h5,h1{
+	text-align: center;
+}
+
+#services li{
+	padding-left: 18%;
+}
+
+#services h1{
+	font-weight: 700;
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+
+.la-camera-retro{
+	background-color:#B73E3E;
+	border-radius:50%;
+	padding: 20px;
+	color: #FFFFFF;
+	font-size: 75px;
+}
+
+.la-palette{
+	background-color:#B73E3E;
+	border-radius:50%;
+	padding: 20px;
+	color: #FFFFFF;
+	font-size: 75px;
+}
+
+.la-swatchbook{
+	background-color:#B73E3E;
+	border-radius:50%;
+	padding: 20px;
+	color: #FFFFFF;
+	font-size: 75px;
+}
+
+.la-laptop-code{
+	background-color:#B73E3E;
+	border-radius:50%;
+	padding: 20px;
+	color: #FFFFFF;
+	font-size: 75px;
+}
+
+#portafolio h1{
+	font-weight: 700;
+	padding-bottom: 5%;
+	border-bottom-style: solid 1px;
+}
+
+#otrosproyectos h1{
+	font-weight: 700;
+	padding-bottom: 2%;
+	border-bottom-style: solid 1px;
+}
+
+.card{
+	background-color: #DD5353;
+	border: 0px;
+	border-bottom: 2px solid #B73E3E;
+	box-shadow: 0px 0px 30px 0px #ddd;
+	align-content: center;
+}
+.card h3{
+	color: #FFFBE9;
+	letter-spacing: 2%;
+	padding-bottom: 4%;
+	font-size: 26px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.card p{
+	text-align: center;
+	font-size: 16px;
+	color: #FFFBE9;
+}
+
+#form{
+background-image: url("../img/aura.jpg");
+	background-size: cover;
+}
+
+#form .form-info{
+background-color: #B73E3E;
+	padding: 25px 30px;
+	text-align: center;
+	box-shadow: 0px 0px 20px 0px #B73E3E;
+}
+
+#form input, 
+#form textarea{
+	padding: 15px;
+	border-radius: 0;
+	background-color: #fbfbfb;
+	border:0;
+}
+
+#form .btn{
+	margin-left: -0%;
+	text-align: center;
+	background-color: #fff;
+}
+
+#form h1{
+	font-weight: 700;
+	padding-bottom: 5%;
+}
+
+#form h5{
+	color:#fff;
+}
+
+i{
+	background-color: #000001;
+	border-radius:50%;
+	padding: 20px;
+	color: #FFFFFF;
+	font-size: 50px;
+}
+
+#form li{
+	padding-top: 70px;
+}
+
+#form li :hover{
+	color:#FFFBE9;
+	opacity: 70%;
+}
+
+footer{
+	padding-top: 7%;
+	padding-bottom: 7%;
+	text-align: center;
+}
