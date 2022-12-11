@@ -34,7 +34,6 @@
 
 .dropdown-menu{
 	background-color:#B73E3E;
-	border:0;
 }
 .dropdown-menu .dropdown-item{
 	font-weight:300!important;	
@@ -51,7 +50,7 @@
 
 .navbar-light .navbar-toggler{
 	background-color: transparent;
-	border:1px solid #000;
+	
 }
 .navbar-light .navbar-toggler:hover,
 .navbar-light .navbar-toggler:focus
@@ -69,7 +68,6 @@
 }
 .navbar-light .navbar-brand {
 	color:#363636;		
-	height: auto;
 }
 .navbar-light .navbar-brand:hover {
  	color:#B73E3E;
@@ -78,9 +76,18 @@
 	
 }
 .navbar-toggler i{
-	color: #000;
-	font-size: 30px;
+	color: #fff;
+	font-size: 20px;
 }
+
+.dropdown-menu{
+	background-color:#212121;
+	color: #fff;
+}
+.dropdown-menu .dropdown-item{
+	font-weight:300!important;
+}
+
 
 
 .carousel-caption{
